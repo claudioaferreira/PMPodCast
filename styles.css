@@ -1,0 +1,85 @@
+:root {
+    --primary-color: #a8e6e2;
+    --text-color: #333333;
+}
+
+body {
+    padding-top: 60px;
+    font-size: 0.95rem;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.95);
+    height: 60px;
+}
+
+.logo {
+    height: 35px;
+    width: auto;
+}
+
+.logo-small {
+    height: 25px;
+    width: auto;
+}
+
+.hero-logo {
+    height: 70px;
+    width: auto;
+}
+
+.nav-link {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+.video-container, .podcast-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.video-container iframe, .podcast-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.social-icon {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    transition: all 0.2s ease;
+}
+
+.social-icon:hover {
+    color: var(--primary-color);
+    transform: translateY(-2px);
+}
+
+footer .social-icon {
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .hero-logo {
+        height: 60px;
+    }
+    
+    .display-5 {
+        font-size: 1.8rem;
+    }
+    
+    .lead {
+        font-size: 1rem;
+    }
+}
