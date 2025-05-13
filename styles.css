@@ -83,3 +83,16 @@ footer .social-icon {
         font-size: 1rem;
     }
 }
+
+.nav-video {
+    height: 35px;
+    width: auto;
+    object-fit: contain;
+}
+
+.hero-video {
+    max-height: 200px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
